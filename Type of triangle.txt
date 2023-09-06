@@ -1,0 +1,9 @@
+--	TYPE of TRIANGLE
+select
+(case 
+ when A+B<=C or A+C<=B or B+C<=A then 'Not A Triangle'
+ when A=B and B=C and C=A then 'Equilateral'
+ when (A=B and B!=C) OR (B=C AND B!=A) OR (A=C and B!=A) then 'Isosceles' 
+ when A!=B and B!=C and C!=A then 'Scalene'
+ END) AS TriangleType
+from Triangles
