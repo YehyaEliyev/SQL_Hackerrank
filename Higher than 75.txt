@@ -1,0 +1,4 @@
+--Higher than 75Marks
+SELECT NAME FROM STUDENTS 
+WHERE MARKS > 75 
+ORDER BY substr(name,length(name)-2), ID ASC;	
