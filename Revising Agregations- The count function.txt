@@ -1,0 +1,3 @@
+--Revising Agregations- The count function 
+Select Count(*) from City
+Where Population>100000;
