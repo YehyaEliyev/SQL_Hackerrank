@@ -1,0 +1,3 @@
+----Revising Aggregations - Averages
+Select sum(Population) from City
+where district='California';

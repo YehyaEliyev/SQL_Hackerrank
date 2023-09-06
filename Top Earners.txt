@@ -1,0 +1,4 @@
+---Top Earners
+Select months*salary, count(months*salary) from employee
+Where months*salary in (Select max(months*salary)  from employee)
+group by  months*salary;   
