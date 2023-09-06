@@ -1,0 +1,4 @@
+--African Cities
+select ci.name from city ci
+left join country co on ci.countrycode= co.code
+where co.continent='Africa';
