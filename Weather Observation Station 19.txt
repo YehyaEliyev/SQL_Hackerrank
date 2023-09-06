@@ -1,0 +1,3 @@
+--Weather Observation Station 19
+SELECT TRUNC(SQRT((MIN(Lat_N) - MAX(Lat_n)) * (MIN(Lat_N) - Max(Lat_n)) + (MAX(Long_W) - min(Long_W)) * (MAX(Long_W) - Min(Long_W))), 4)
+FROM STATION;

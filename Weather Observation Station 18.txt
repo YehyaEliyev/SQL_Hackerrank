@@ -1,0 +1,2 @@
+-- Weather Observation Station 18
+select round(abs(min(Lat_n)-max(Lat_n)),4)+round(abs(max(Long_w)-min(Long_w)),4) from STATION;
