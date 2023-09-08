@@ -6,4 +6,4 @@ select
  when (A=B and B!=C) OR (B=C AND B!=A) OR (A=C and B!=A) then 'Isosceles' 
  when A!=B and B!=C and C!=A then 'Scalene'
  END) AS TriangleType
-from Triangles
+from Triangles;
