@@ -1,0 +1,3 @@
+---Employee Salaries
+Select Name from Employee
+Where Salary>2000 and Months<10;

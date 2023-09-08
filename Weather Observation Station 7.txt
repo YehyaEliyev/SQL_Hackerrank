@@ -1,0 +1,4 @@
+--Weather Observation Station 7
+Select Distinct City from Station
+Where City like ('%e')or City like ('%a')or City like ('%i')
+    or City like ('%o')or City like ('%u');

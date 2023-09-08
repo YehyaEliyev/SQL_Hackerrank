@@ -1,0 +1,3 @@
+---Revising the select query
+Select Name from City
+Where population>120000 and  CountryCode='USA';

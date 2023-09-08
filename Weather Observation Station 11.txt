@@ -1,0 +1,3 @@
+---Weather Observation Station 11
+Select Distinct City from Station
+Where City Not Like '[aeiou]%' or City Not Like '%[aeiou]';
